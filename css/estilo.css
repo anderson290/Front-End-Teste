@@ -18,7 +18,14 @@ a:hover{
 	color: #606060;
 	text-decoration: none;
 }
-
+tr{
+	color: white;
+	background-color: #8258FA;
+}
+td{
+	color: white;
+	background-color:#A9A9F5;
+}
 /*===================tipografia=======================*/
 .negrito{
 	font-weight: bolder;
