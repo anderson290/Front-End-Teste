@@ -44,8 +44,9 @@
 				<!--Lista não ordenada com a resposta 02-->
 				<div class="esconder">
 					<ol>
-						<li><span class="negrito">Limpeza do código:</span> De longe o mais importante dos fatores. Remover elementos e espaços na página desnecessários, utilizar-se de imagens mais leves para que sejam carregadas de imediato e boa organização e estruturação do código são práticas que contribuem para um carregamento mais limpo e tranquilo.</li>
-						<li><span class="negrito">Reutilização de Conteúdo:</span> Assegurar que conteúdos com importância relevante sejam guardados e reutilizados via memória cache.</li>
+						<li><span class="negrito">Limpeza do código:</span> Remover elementos e espaços na página desnecessários, utilizar-se de imagens mais leves para que sejam carregadas de imediato e boa organização e estruturação do código são práticas que contribuem para um carregamento mais limpo e tranquilo.</li>
+						<li><span class="negrito">Reutilização de Conteúdo:</span> Garantir que conteúdos com importância relevante sejam guardados e reutilizados via memória cache.</li>
+						<li><span class="negrito">Ferramentas de compressão:</span> Existem várias ferramentas de compressão de código que possibilitam um carregamento mais rápido do mesmo pelo browser. Muito utilizado para arquivos JavaScript.</li>
 					</ol>
 				</div>
 			<br/>			
@@ -77,14 +78,14 @@
 							</div>
 							<div class="col-md-3">	
 
-								<p><span class="negrito">&lt;section&gt;: </span>Define uma seção do layout em um determinado elemento. Também pode conter um <strong>header</strong> e também um <strong>footer</strong> se preciso;</p>
+								<p><span class="negrito">&lt;section&gt;: </span>Define uma seção do layout em um determinado elemento. Pode conter um <strong>header</strong> e <strong>footer</strong>;</p>
 								
 							</div>
 							<div class="col-md-3">
 								<p><span class="negrito">&lt;article&gt;: </span>Consiste em uma composição independente de conteúdo com um cabeçalho e algum texto que faça sentido até de forma isolada;</p>
 							</div>
 							<div class="col-md-3">
-								<p><span class="negrito">&lt;aside&gt;: </span>Consiste em envolver informações que tem algo a ver com o conteúdo principal do site. Pode ser um menu lateral, um sidebar padrão com menu ou banner;</p>
+								<p><span class="negrito">&lt;aside&gt;: </span>Consiste em envolver informações que tem algo a ver com o conteúdo principal do site. Pode ser um menu lateral, um sidebar ou uma informação complementar lateral;</p>
 									
 							</div>
 						</div>
@@ -118,8 +119,12 @@
 			        		<td>Perda de tempo por causa do encapsulamento da mensagem.</td>
 			        	</tr>
 			        	<tr>
+			        		<td>Menos Seguro.</td>
+			        		<td>Mais Seguro.</td>
+			        	</tr>
+			        	<tr>
 			        		<td>Restrição em só transportar texto.</td>
-			        		<td>Sem restrições de tipo, transportando tanto textos como dados binários.</td>
+			        		<td>Sem restrições de tipo.</td>
 			        	</tr>
 			        </tbody>
 				</table>
@@ -131,10 +136,10 @@
 				<div class="esconder">
 				<ol>
 					<li><span class="negrito">Display: none;</span> Elementos com Display:none não são renderizados.</li>
-					<li><span class="negrito">Display: block;</span> Elementos renderizados como bloco, sendo posicionados um abaixo do outro. Não permite elementos HTML ao lado.<br/>(Ps: exceto com a propriedade float).</li>
+					<li><span class="negrito">Display: block;</span> Elementos carregados como bloco, sendo posicionados um abaixo do outro. Não permite elementos HTML ao lado.<br/>(Ps: exceto com a propriedade float).</li>
 					<li><span class="negrito">Display: inline;</span> Elementos dentro do bloco na mesma linha, sendo posicionado lado a lado. Seu tamanho varia com o tamanho do conteúdo.</li>
 					<li><span class="negrito">Display: inline-block;</span> Elemento é posicionado inline, ou seja, na mesma linha do conteúdo adjacente, mas detém comportamento de bloco.</li>
-					<li><span class="negrito">Display: table;</span> Elemento será renderizado como uma tabela, contendo as mesmas manipulações de table-row e table-data.</li>
+					<li><span class="negrito">Display: table;</span> Elemento formatado como uma tabela, contendo as mesmas manipulações de table-row e table-data.</li>
 					<li><span class="negrito">Display: list-item;</span> Elemento será formatado como o item de uma lista, aparecendo até mesmo o marcador (bullet), na frente de cada um dos itens.</li>
 					
 				</ol>
