@@ -27,6 +27,12 @@ td{
 	color: white;
 	background-color:#A9A9F5;
 }
+
+.exibir{
+	cursor:pointer;
+}
+
+
 /*===================tipografia=======================*/
 .negrito{
 	font-weight: bolder;
