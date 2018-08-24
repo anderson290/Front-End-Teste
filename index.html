@@ -5,12 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!--Bootstrap cdn-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!--Link para folha de estilo-->
     <link href="css/estilo.css" rel="stylesheet">
 
-    <script src="script.js"></script>
-
+    <!--Título da página-->
 	<title>Teste Front End</title>
 
 </head>
@@ -18,97 +19,113 @@
 	<div class="container">
 
 		<div class="jumbotron">
-
+			<!--Título-->
 			<h1>START</h1>
 
 		</div>
-		
+		<!--Classe para listar as perguntas-->
 		<ul class="list-group">
+			<!--Pergunta01-->
 			<li class="list-group-item">Se você tivesse 5 diferentes arquivos de folhas de estilo, qual seria a melhor forma de integrá-los no site?</li>
-			<p>R: Através da tag link, onde você declara uma tag link para cada arquivo e referencia o caminho da folha de estilo pelo atributo href da mesma. Ela deve ser colocada entre as tags head da página onde se deseja integrá-las.</p>
+				<!--Parágrafo com a resposta 01-->
+				<p>
+					Através da tag link, onde você declara uma tag link para cada arquivo e referencia o caminho da folha de estilo pelo atributo href da mesma. Ela deve ser colocada entre as tags head da página onde se deseja integrá-las.
+				</p>
 
+			<!--Pergunta02-->
 			<li class="list-group-item">Fale 3 formas de diminuir o page load (tempo de carregamento real e percebido).</li>
-
-			<ol>
-				<li><span class="negrito">Limpeza do código:</span> De longe o mais importante dos fatores. Remover elementos e espaços na página desnecessários, utilizar-se de imagens mais leves para que sejam carregadas de imediato e boa organização e estruturação do código são práticas que contribuem para um carregamento mais limpo e tranquilo.</li>
-				<li><span class="negrito">Reutilização de Conteúdo:</span> Assegurar que conteúdos com importância relevante sejam guardados e reutilizados via memória cache.</li>
-			</ol>
-
-			<br/>
-				
-				
-				
+				<!--Lista não ordenada com a resposta 02-->
+				<ol>
+					<li><span class="negrito">Limpeza do código:</span> De longe o mais importante dos fatores. Remover elementos e espaços na página desnecessários, utilizar-se de imagens mais leves para que sejam carregadas de imediato e boa organização e estruturação do código são práticas que contribuem para um carregamento mais limpo e tranquilo.</li>
+					<li><span class="negrito">Reutilização de Conteúdo:</span> Assegurar que conteúdos com importância relevante sejam guardados e reutilizados via memória cache.</li>
+				</ol>
+			<br/>			
+			
+			<!--Pergunta03-->
 			<li class="list-group-item">Quais ferramentas você usa para testar a performance do seu código?</li>
 
-				<p><span class="negrito">TryLightHouse:</span> Utilizo a TryLightHouse da Google, onde você pode verificar um report gerado pela ferramenta quem contém: Performance, Progressive Web App, Acessibility, Best Practices e SEO, como critérios de avaliação. Link: <a href="https://developers.google.com/web/tools/lighthouse/run">TryLightHouse</a><br/><br/>
+				<!--Parágrafo com a resposta 03-->
+				<p>
+					<span class="negrito">TryLightHouse:</span> Utilizo a TryLightHouse da Google, onde você pode verificar um report gerado pela ferramenta quem contém: Performance, Progressive Web App, Acessibility, Best Practices e SEO, como critérios de avaliação. Link: <a href="https://developers.google.com/web/tools/lighthouse/run">TryLightHouse</a><br/><br/>
 
-				<span class="negrito">W3C MARKUP VALIDATION SERVICE: </span>Esta ferramenta da W3C valida o código de páginas web em HTML, XHTML, SMIL, MathML, etc. O mesmo recomenda alterações para otimização do código se necessário, aponta erros e dá sugestões. Link: <a href="https://validator.w3.org/">Markup Validation Service</a>
-
+					<span class="negrito">W3C MARKUP VALIDATION SERVICE: </span>Esta ferramenta da W3C valida o código de páginas web em HTML, XHTML, SMIL, MathML, etc. O mesmo recomenda alterações para otimização do código se necessário, aponta erros e dá sugestões. Link: <a href="https://validator.w3.org/">Markup Validation Service</a>
 				</p>
 
+			<!--Pergunta04-->
 			<li class="list-group-item">Considere o HTML5 como uma plataforma web aberta. Quais são os blocos de construção de HTML5?</li>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<p><span class="negrito">&lt;header&gt;: </span>Define o cabeçalho da página;<br/>
-						<span class="negrito">&lt;nav&gt;: </span>Define o menu de navegação;<br/>
-						<span class="negrito">&lt;footer&gt;: </span>Define o rodapé do elemento;</p>
-						
-					</div>
-					<div class="col-md-3">	
 
-						<p><span class="negrito">&lt;section&gt;: </span>Define uma seção do layout em um determinado elemento. Também pode conter um <strong>header</strong> e também um <strong>footer</strong> se preciso;</p>
-						
-					</div>
-					<div class="col-md-3">
-						<p><span class="negrito">&lt;article&gt;: </span>Consiste em uma composição independente de conteúdo com um cabeçalho e algum texto que faça sentido até de forma isolada;</p>
-					</div>
-					<div class="col-md-3">
-						<p><span class="negrito">&lt;aside&gt;: </span>Consiste em envolver informações que tem algo a ver com o conteúdo principal do site. Pode ser um menu lateral, um sidebar padrão com menu ou banner;</p>
+				<!--Container | row separando em 4 colunas com a resposta 04-->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3">
+							<p><span class="negrito">&lt;header&gt;: </span>Define o cabeçalho da página;<br/>
+							<span class="negrito">&lt;nav&gt;: </span>Define o menu de navegação;<br/>
+							<span class="negrito">&lt;footer&gt;: </span>Define o rodapé do elemento;</p>
 							
+						</div>
+						<div class="col-md-3">	
+
+							<p><span class="negrito">&lt;section&gt;: </span>Define uma seção do layout em um determinado elemento. Também pode conter um <strong>header</strong> e também um <strong>footer</strong> se preciso;</p>
+							
+						</div>
+						<div class="col-md-3">
+							<p><span class="negrito">&lt;article&gt;: </span>Consiste em uma composição independente de conteúdo com um cabeçalho e algum texto que faça sentido até de forma isolada;</p>
+						</div>
+						<div class="col-md-3">
+							<p><span class="negrito">&lt;aside&gt;: </span>Consiste em envolver informações que tem algo a ver com o conteúdo principal do site. Pode ser um menu lateral, um sidebar padrão com menu ou banner;</p>
+								
+						</div>
 					</div>
 				</div>
-			</div>
 			<br/>
+
+			<!--Pergunta05-->
 			<li class="list-group-item">Você pode explicar a diferença entre GET e POST?</li>
 
-			<table class="table table-bordered table-condensed">
-				<thead>
-		          <tr>
-		            <th>GET</th>
-		            <th>POST</th>		            
-		          </tr>
-		        </thead>
-		        <tbody>
-		        	<tr>
-		        		<td>Requisições HTTP que são enviadas em formato String via URL</td>
-		        		<td>Requisições HTTP que são enviadas de forma encapsulada e não ficam expostas</td>
-		        	</tr>
-		        	<tr>
-		        		<td>Limitação em seu tamanho por ser uma String (aproximadamente 255 caracteres).</td>
-		        		<td>Não há limitações de comprimento da mensagem, pois ela é enviada no corpo da requisição HTTP.</td>
-		        	</tr>
-		        	<tr>
-		        		<td>Relativamente mais rápida devido a simplicidade.</td>
-		        		<td>Perda de tempo por causa do encapsulamento da mensagem.</td>
-		        	</tr>
-		        	<tr>
-		        		<td>Restrição em só transportar texto.</td>
-		        		<td>Sem restrições de tipo, transportando tanto textos como dados binários.</td>
-		        	</tr>
-		        </tbody>
-			</table>
+				<!--Tabela de duas colunas exibindo a resposta 05-->
+				<table class="table table-bordered table-condensed">
+					<thead>
+			          <tr>
+			            <th>GET</th>
+			            <th>POST</th>		            
+			          </tr>
+			        </thead>
+			        <tbody>
+			        	<tr>
+			        		<td>Requisições HTTP que são enviadas em formato String via URL</td>
+			        		<td>Requisições HTTP que são enviadas de forma encapsulada e não ficam expostas</td>
+			        	</tr>
+			        	<tr>
+			        		<td>Limitação em seu tamanho por ser uma String (aproximadamente 255 caracteres).</td>
+			        		<td>Não há limitações de comprimento da mensagem, pois ela é enviada no corpo da requisição HTTP.</td>
+			        	</tr>
+			        	<tr>
+			        		<td>Relativamente mais rápida devido a simplicidade.</td>
+			        		<td>Perda de tempo por causa do encapsulamento da mensagem.</td>
+			        	</tr>
+			        	<tr>
+			        		<td>Restrição em só transportar texto.</td>
+			        		<td>Sem restrições de tipo, transportando tanto textos como dados binários.</td>
+			        	</tr>
+			        </tbody>
+				</table>
 
-
+			<!--Pergunta06-->
 			<li class="list-group-item">Liste quantas propriedades display você puder lembrar.</li>
+			<!--resposta 06-->
 
+			<!--Pergunta07-->
 			<li class="list-group-item">Qual a diferença entre inline e inline-block?</li>
+				<!--Parágrafo com a resposta 07-->
 				<p>
 					<span class="negrito">Inline: </span>Um elemento do tipo Inline não aceita nenhum tipo de espaçamento (padding/margin) ou formatações de tamanho (height, width). Estes ocupam somente o espaço necessário para sua exibição.<br/><br/>
+
 					<span class="negrito">Inline-block: </span>Já um elemento Inline-block é a junção entre inline e block e pode sofrer tais alterações redimensionais, aceitando atributos css como height, width, padding, margin, para sua configuração.
 				</p>
-			<li class="list-group-item">Qual a diferença entre elementos posicionados de forma relativa, fixa, absoluta e estática?</li>	
 
+			<!--Pergunta08-->
+			<li class="list-group-item">Qual a diferença entre elementos posicionados de forma relativa, fixa, absoluta e estática?</li>	
+				<!--Parágrafo com a resposta 03-->
 				<p>
 					<span class="negrito">Relativa:</span> Você consegue alinhar o elemento a ele mesmo. Você move o elemento baseado na sua posição inicial, podendo utilizar as propriedades top, right, bottom e left para executar a ação.<br/><br/>
 
@@ -119,21 +136,26 @@
 					<span class="negrito">Estática:</span> O posicionamento estático se comporta perante ao valor padrão de posicionamento. Os elementos permanecem onde estão e uso dessa declaração serve para sobrescrever um posicionamento declarando anteriormente no código.
 				</p>
 
+			<!--Pergunta09-->
 			<li class="list-group-item">Qual a diferença entre .call e .apply?</li>
+				<!--Parágrafo com a resposta 09-->
 				<p>
 					<span class="negrito">Os dois são métodos JavaScript que solucionam o mesmo problema: generilização de uma ação por meio de uma função para evitar a repetição de código.</span>
-					<br/>
-					<br/>
+					<br/><br/>
+
 					<span class="negrito">.call: </span>No método call, utiliza-se do parâmetro this.(contexto) e os seguintes são parâmetros da função. Ex: função.call(parametro,arg);<br/>
+
 					<span class="negrito">.apply: </span>O método apply é quase a mesma coisa. A diferença é que se utiliza de Arrays nos parâmetros. Ex: função.apply(parametro,[argArray]);
 				</p>
 
+			<!--Pergunta10-->
 			<li class="list-group-item">Qual a diferença entre == e ===?</li>
-
-			<p>				
-				<span class="negrito">Igual(==): </span>Compara o conteúdo entre variáveis para verificar se eles são iguais.<br/> Ex: String '2' == int 2 (Verdadeiro).<br/><br/>
-				<span class="negrito">Idêntico(===): </span>Compara o conteúdo entre variáveis para verificar se eles são iguais juntamente com seus tipos.<br/> Ex: String '2' === int 2 (Falso) | int 2 === int 2 (Verdadeiro).
-			</p>
+				<!--Parágrafo com a resposta 10-->
+				<p>				
+					<span class="negrito">Igual(==): </span>Compara o conteúdo entre variáveis para verificar se eles são iguais.<br/> Ex: String '2' == int 2 (Verdadeiro).<br/><br/>
+					
+					<span class="negrito">Idêntico(===): </span>Compara o conteúdo entre variáveis para verificar se eles são iguais juntamente com seus tipos.<br/> Ex: String '2' === int 2 (Falso) | int 2 === int 2 (Verdadeiro).
+				</p>
 		</ul>
 	</div>
 </body>
