@@ -27,6 +27,11 @@ td{
 	color: white;
 	background-color:#8A8E99;
 }
+.list-group-item:first-child {
+	/*removendo border radius*/
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
 .perguntas-cor{
 	background-color: #3D5599;
 	border-color: #3D5599; 
