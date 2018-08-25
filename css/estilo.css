@@ -7,9 +7,9 @@
 html, body{
 	height: 100%;
 	
-	background-color: #9f9ff5;
-}
+	background-color: #98B3FF;
 
+}
 a{
 	text-decoration: none;
 	color: #ccc;
@@ -21,35 +21,49 @@ a:hover{
 }
 tr{
 	color: white;
-	background-color: #8962f9;
+	background-color: #6688E5;
 }
 td{
 	color: white;
-	background-color:#A9A9F5;
+	background-color:#8A8E99;
 }
-
+.perguntas-cor{
+	background-color: #3D5599;
+	border-color: #3D5599; 
+	color:white;
+}
+.list-group-item.active{
+	background-color: #3D5599;
+	border-color: #3D5599; 
+}
+.titulo{
+	text-align: center;
+}
+.jumbotron{
+	background-color: #997B2E;
+	color: #E5C572;
+}
 .exibir{
 	cursor:pointer;
-}
-
-
-/*===================tipografia=======================*/
-.negrito{
-	font-weight: bolder;
-}
-p{
-	text-align: justify;
-	padding: 10px;
-	
-	color: white;
-	background-color: #8962f9;
 }
 .row{
 	margin-top: 2px;
 }
+.negrito{
+	font-weight: bolder;
+}
+
+/*===================tipografia=======================*/
+p{
+	text-align: justify;
+	padding: 10px;	
+	color: white;
+	background-color: #7290E5;
+}
+
 ol, .row{
 	text-align: justify;
 	color: white;
-	background-color: #8962f9;
+	background-color: #7290E5;
 	padding-right: 10px;
 }
